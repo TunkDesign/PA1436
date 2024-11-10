@@ -1,13 +1,32 @@
 @use '../../node_modules/normalize.css/normalize';
 @use 'variables';
 
+@use 'typography';
+@use 'header';
+@use 'main';
+@use 'footer';
+
 @use 'blockquotes';
 @use 'code';
-
-body {
-    background-color: variables.$background-color;
-}
+@use 'figure';
+@use 'mobile-menu';
 
 * {
-    color: variables.$font-color;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
