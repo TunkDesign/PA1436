@@ -1,0 +1,25 @@
+/* Variables */
+@use 'variables';
+
+/* Styling for images in markdown */
+img[alt$=">"] {
+    float: right;
+    margin: 20px;
+    padding: 0.5em;
+    border: 1px solid variables.$border-color;
+}
+
+img[alt$="<"] {
+    float: left;
+    margin: 20px;
+    padding: 0.5em;
+    border: 1px solid variables.$border-color;
+}
+
+img[alt$="><"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: none!important;
+}

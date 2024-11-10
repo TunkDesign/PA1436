@@ -1,0 +1,27 @@
+/* Variables */
+@use 'variables';
+
+/* Footer */
+.footer {
+    background-color: #444;
+    color: white;
+}
+
+.footer .content {
+    margin: auto;
+    max-width: variables.$content-size;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #222;
+}
+
+.footer .social {
+    font-size: 2rem;
+    filter: invert(1);
+}

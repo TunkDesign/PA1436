@@ -1,13 +1,13 @@
-@import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@use '../../node_modules/normalize.css/normalize';
+@use 'variables';
 
-@import 'blockquotes';
-@import 'code';
+@use 'blockquotes';
+@use 'code';
 
 body {
-    background-color: $background-color;
+    background-color: variables.$background-color;
 }
 
 * {
-    color: $font-color;
+    color: variables.$font-color;
 }
