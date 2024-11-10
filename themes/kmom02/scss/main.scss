@@ -3,13 +3,12 @@
 
 /* Content */
 .main {
-    max-width: variables.$content-size;
-    flex: 1 0 auto;
-    margin: auto;
+  max-width: variables.$content-size;
+  flex: 1 0 auto;
+  margin: auto;
 }
 
 .main .content {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-
