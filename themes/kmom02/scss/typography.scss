@@ -1,10 +1,13 @@
+/* Variables */
+@use 'variables';
+
 /* Typografy */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5rem;
-  color: #444;
+  color: variables.$font-color;
 }
 
 p,
