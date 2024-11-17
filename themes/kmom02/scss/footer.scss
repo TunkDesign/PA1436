@@ -3,8 +3,8 @@
 
 /* Footer */
 .footer {
-  background-color: #444;
-  color: #fff;
+  background-color: variables.$footer-bg;
+  color: variables.$footer-color;
 }
 
 .footer .content {
@@ -18,7 +18,7 @@
 }
 
 .footer a {
-  color: #222;
+  color: variables.$footer-link;
 }
 
 .footer .social {
