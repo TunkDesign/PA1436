@@ -4,7 +4,7 @@ Description: Färganalys.
 Template: analysis-info
 ---
 
-Titel på rapporten
+Design och Färganalys
 =======================
 
 Vi ska undersöka hur designen ser ut på några olika webbsidor, med fokus på färger och typografi. Vilka färger används, och hur fungerar de ihop? Passar designen sitt syfte, eller finns det något som kan förbättras för att göra sidan ännu bättre?
