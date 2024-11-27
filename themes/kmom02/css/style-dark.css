@@ -312,7 +312,18 @@ template {
 }
 
 /* Colors */
+/* Header colors */
+/* Nav colors */
+/* Footer colors */
+/* Code colors */
+/* Blockquote colors */
 /* Sizes */
+/* Colors for dark theme */
+/* Header colors */
+/* Nav colors */
+/* Footer colors */
+/* Code colors */
+/* Blockquote colors */
 /* FontAwesome */
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -6431,7 +6442,7 @@ readers do not read off random characters that represent icons */
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
-  color: #444;
+  color: #e0e0e0;
 }
 
 p,
@@ -6538,7 +6549,7 @@ q::after {
   }
 }
 .title * {
-  color: #111;
+  color: #e0e0e0;
 }
 
 .title p {
@@ -6582,6 +6593,7 @@ q::after {
 
 .footer a {
   color: #222;
+  padding: 5px;
 }
 
 .footer .social {
@@ -6589,19 +6601,21 @@ q::after {
   filter: invert(1);
 }
 
+/* Variables */
 blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid #333;
 }
 
+/* Variables */
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #2d2d2d;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6609,9 +6623,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #2d2d2d;
 }
 
 pre code {
@@ -6630,14 +6644,14 @@ pre code {
   float: right;
   margin: 20px;
   padding: 0.5em;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(110, 110, 110);
 }
 
 [alt$="<"] {
   float: left;
   margin: 20px;
   padding: 0.5em;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(110, 110, 110);
 }
 
 [alt$="><"] {
@@ -6677,7 +6691,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: #333;
+  color: #e0e0e0;
 }
 
 .nav-toggle {
@@ -6746,17 +6760,17 @@ pre code {
   }
 }
 .box {
-  border: rgb(204, 204, 204) solid 1px;
+  border: rgb(110, 110, 110) solid 1px;
   padding-top: 10px;
   text-align: center;
-  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease-in-out;
 }
 
 .box a {
   text-decoration: none;
-  color: #444;
+  color: #e0e0e0;
   transition: 0.2s;
 }
 
@@ -6775,14 +6789,14 @@ pre code {
   text-align: right;
   grid-column: 1;
   grid-row: 1;
-  border-right: rgb(204, 204, 204) solid;
+  border-right: rgb(110, 110, 110) solid;
   padding-right: 40px;
   margin-right: 40px;
 }
 
 .tech-menu a {
   text-decoration: none;
-  color: #444;
+  color: #e0e0e0;
   transition: 0.2s;
 }
 
@@ -6802,16 +6816,68 @@ pre code {
   }
   .tech-menu {
     text-align: center;
-    margin-right: 0px;
-    padding-right: 0px;
-    border-right: none;
-    border-bottom: rgb(204, 204, 204) solid;
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+    border-bottom: rgb(110, 110, 110) solid;
   }
   .tech-content {
     grid-column: 1;
     grid-row: 2;
   }
 }
+/* Variables */
+.landingpage {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.landingpage h1 {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .landingpage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .analysis-box:last-child {
+    grid-column: span 2;
+  }
+  .landingpage h1 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 850px) {
+  .analysis-box:last-child {
+    grid-column: span 1;
+  }
+  .landingpage h1 {
+    grid-column: span 3;
+  }
+}
+.analysis-box {
+  border: rgb(110, 110, 110) solid 1px;
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.analysis-box a {
+  text-decoration: none;
+  color: #e0e0e0;
+  transition: 0.2s;
+}
+
+.analysis-box a:hover {
+  opacity: 0.5;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6825,10 +6891,23 @@ pre code {
 
 html,
 body {
+  background-color: #262626;
   height: 100%;
 }
 
 body {
   display: flex;
   flex-direction: column;
+}
+
+a {
+  color: #e0e0e0;
+}
+
+img {
+  filter: brightness(90%);
+}
+
+.fas.fa-lightbulb {
+  color: #00f !important;
 }

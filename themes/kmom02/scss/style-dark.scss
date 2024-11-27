@@ -1,6 +1,32 @@
 @use '../../node_modules/normalize.css/normalize';
 @use 'variables';
 
+/* Colors for dark theme */
+variables.$border-color: rgba(110, 110, 110, 1);
+variables.$font-color: #e0e0e0;
+$bg-color: #262626;
+$link-color: #fff;
+
+/* Header colors */
+variables.$header-title: #e0e0e0;
+
+/* Nav colors */
+variables.$nav-link: #e0e0e0;
+
+/* Footer colors */
+variables.$footer-bg: #444;
+variables.$footer-color: #fff;
+variables.$footer-link: #222;
+
+/* Code colors */
+variables.$code-bg: #2d2d2d;
+variables.$code-border: 1px solid #444;
+
+/* Blockquote colors */
+variables.$blockquote-border: 0.5em solid #333;
+
+
+
 /* FontAwesome */
 @use '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts' !important;
@@ -19,6 +45,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts' !important;
 @use 'mobile-menu';
 
 @use 'technology';
+@use 'analysis';
 
 * {
   box-sizing: border-box;
@@ -33,10 +60,23 @@ $fa-font-path: '../../shared/fontawesome/webfonts' !important;
 
 html,
 body {
+  background-color: $bg-color;
   height: 100%;
 }
 
 body {
   display: flex;
   flex-direction: column;
+}
+
+a {
+  color: variables.$font-color;
+}
+
+img {
+  filter: brightness(90%);
+}
+
+.fas.fa-lightbulb {
+  color: #00f !important;
 }

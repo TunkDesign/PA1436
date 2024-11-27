@@ -42,7 +42,7 @@
   border: variables.$border-color solid 1px;
   padding-top: 10px;
   text-align: center;
-  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease-in-out;
 }
@@ -50,11 +50,11 @@
 .box a {
   text-decoration: none;
   color: variables.$font-color;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .box a:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .tech-info {
@@ -76,11 +76,11 @@
 .tech-menu a {
   text-decoration: none;
   color: variables.$font-color;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .tech-menu a:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .tech-content {
@@ -96,9 +96,9 @@
 
   .tech-menu {
     text-align: center;
-    margin-right: 0px;
-    padding-right: 0px;
-    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
     border-bottom: variables.$border-color solid;
   }
 
