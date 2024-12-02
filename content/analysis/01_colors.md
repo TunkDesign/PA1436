@@ -44,7 +44,7 @@ Resultat
 -----------------------
 
 ### Webhallen
-![Snapshot på webhallen alt ><](/image/webhallen.png&width=500)<br>
+![Snapshot på webhallen alt ><](https://www.student.bth.se/~kaha24/dbwebb-kurser/design/me/portfolio/image/webhallen.png&width=500)<br>
 
 #### Analys
 Webhallen är en populär svensk webbshop som jag själv är en nöjd kund hos. Trots detta har jag alltid haft svårt för deras webbdesign. Deras användning av starka färgkontraster och intensiva, ögonfångande annonser är tydligt märkbar och kan upplevas som överväldigande. Det skapar en känsla av visuellt "brus," vilket gör det utmanande att navigera och fokusera på själva produkterna.<br><br>
@@ -138,7 +138,7 @@ Detta färgschema skapar hög kontrast och uppmärksamhet med starka accenter (g
 <br><br>
 
 ### NASA
-![Snapshot på nasa alt ><](/image/nasa.png&width=500)<br>
+![Snapshot på nasa alt ><](https://www.student.bth.se/~kaha24/dbwebb-kurser/design/me/portfolio/image/nasa.png&width=500)<br>
 
 #### Analys
 Sedan den här analysen genomfördes har NASA uppdaterat sin hemsida med en smått förändrad layout och en förändrad färgpalett. Detta innebär att vissa observationer inte längre helt överensstämmer med verkligheten. Trots detta är det fortfarande tydligt att NASA:s webbplats har ett mycket specifikt syfte: att förmedla information och nyheter på ett effektivt sätt.<br><br>
@@ -226,7 +226,7 @@ Färgschemat framhäver NASAs vetenskapliga och informationsbaserade syfte med e
 <br><br>
 
 ### CubedCon
-![Snapshot på cubedcon alt ><](/image/cubedcon.png&width=500)<br>
+![Snapshot på cubedcon alt ><](https://www.student.bth.se/~kaha24/dbwebb-kurser/design/me/portfolio/image/cubedcon.png&width=500)<br>
 
 #### Analys
 CubedCon är en webbplats som riktar sig till barn och har som mål att skapa en färgglad och mysig upplevelse. Webbplatsens breda och livfulla färgpalett, i kombination med dess stilfulla och charmiga designdetaljer, gör den både inbjudande och rolig att utforska.<br><br>
