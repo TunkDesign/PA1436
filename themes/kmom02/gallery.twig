@@ -1,0 +1,59 @@
+{% include 'incl/header.twig' %}
+
+{% set pictures = [
+    '2023-05-20 16.34.25.webp',
+    '2023-05-20 17.05.23.webp',
+    '2023-05-21 08.05.34.webp',
+    '2023-05-21 09.50.46.webp',
+    '2023-05-22 10.11.59.webp',
+    '2023-05-22 11.08.09.webp',
+    '2023-05-23 08.58.41.webp',
+    '2023-05-24 03.59.26.webp',
+    '2023-05-24 07.11.29.webp',
+    '2023-05-26 09.53.16.webp',
+    '2023-05-26 10.17.14.webp',
+    '2023-05-26 10.30.12.webp'
+] %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="main" role="main">
+
+        <div class="site-image">
+            <img src="{{ base_url }}/{{ pages["_meta"].meta.header|url }}" alt="Header image.">
+        </div>
+        
+        <div class="content">
+            <div class="gallery">
+                {{ content }}
+
+                {% for picture in pictures %}                    
+                <a class="box"  href="{{ base_url }}/image/gallery/{{ picture }}" target="_blank">
+                    <picture>
+                        <source media="(max-width: 400px)"
+                            srcset="{{ base_url }}/image/gallery/{{ picture }}&w=400&{{ ff }}&{{ x }} 1x,
+                                {{ base_url }}/image/gallery/{{ picture }}&w=400&{{ ff }}&{{ x2 }} 2x">
+                        <source media="(max-width: 700px)"
+                            srcset="{{ base_url }}/image/gallery/{{ picture }}&w=350&{{ ff }}&{{ x1 }} 1x,
+                                {{ base_url }}/image/gallery/{{ picture }}&w=350&{{ ff }}&{{ x2 }} 2x">
+                        <source media="(max-width: 900px)"
+                            srcset="{{ base_url }}/image/gallery/{{ picture }}&w=300&{{ ff }}&{{ x1 }} 1x,
+                                {{ base_url }}/image/gallery/{{ picture }}&w=300&{{ ff }}&{{ x2 }} 2x">
+                        <img src="{{ base_url }}/image/gallery/{{ picture }}&w=250&{{ ff }}&{{ x1 }}"
+                            srcset="{{ base_url }}/image/gallery/{{ picture }}&w=250&{{ ff }}&{{ x2 }} 2x"
+                            alt="{{ picture }}">
+                    </picture>
+                </a>
+                {% endfor %}
+            </div>
+
+            <div class="videoplayer">
+                <iframe width="100%" height="450"src="https://www.youtube.com/embed/GYB0V4uSbxI?si=3L-ek0tRBIZo286_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
