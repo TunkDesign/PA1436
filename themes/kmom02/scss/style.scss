@@ -21,6 +21,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts' !important;
 @use 'technology';
 @use 'analysis';
 
+@use 'gallery';
+
 * {
   box-sizing: border-box;
   border: 0 none;

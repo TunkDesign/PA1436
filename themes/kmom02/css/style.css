@@ -6872,6 +6872,81 @@ pre code {
   opacity: 0.5;
 }
 
+/* Variables */
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery h1 {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .box:last-child {
+    grid-column: span 1;
+  }
+  .gallery h1 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 850px) {
+  .box:last-child {
+    grid-column: span 1;
+  }
+  .gallery h1 {
+    grid-column: span 3;
+  }
+}
+.box {
+  border: rgb(204, 204, 204) solid 0;
+  text-align: center;
+  box-shadow: 0;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  transition: 0.2s;
+}
+
+.box:hover {
+  opacity: 0.5;
+}
+
+.videoplayer {
+  padding-top: 20px;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;
