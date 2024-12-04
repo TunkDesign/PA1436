@@ -46,7 +46,7 @@ Resultat
 -----------------------
 
 ### The White House (The White House, 2024)
-![Snapshot på the white house alt ><](/image/whitehouse.png&width=500)<br>
+![Snapshot på the white house alt ><](https://www.student.bth.se/~kaha24/dbwebb-kurser/design/me/portfolio/image/whitehouse.png&width=500)<br>
 
 #### Analys
 Prestanda på desktop är mycket imponerande, särskilt på startsidan och administrationssidan, medan mobilversionen faller efter, med en märkbar skillnad i poäng och längre laddningstider. Besökssidan (Visit) presterar sämst, vilket beror på ett högt antal resurser (73) och stor resursstorlek (10.8 MB). <br><br>
@@ -57,7 +57,7 @@ Prestanda på desktop är mycket imponerande, särskilt på startsidan och admin
 <br><br>
 
 ### NeManager (NeManager, 2024)
-![Snapshot på nemanager alt ><](/image/nemanager.png&width=500)<br>
+![Snapshot på nemanager alt ><](https://www.student.bth.se/~kaha24/dbwebb-kurser/design/me/portfolio/image/nemanager.png&width=500)<br>
 
 #### Analys
 Som ett mindre projekt presterar webbplatsen överraskande bra. Sidan har snabba laddningstider och en låg mängd resurser, vilket ger ett optimalt resultat på både desktop och mobil. Changelog-sidan kan dock förbättras för att få jämnare poäng mellan desktop och mobil.<br><br>
@@ -68,7 +68,7 @@ Som ett mindre projekt presterar webbplatsen överraskande bra. Sidan har snabba
 <br>
 
 ### Stockholms Universitet (Stockholms Universitet, 2024)
-![Snapshot på stockholms universitet alt ><](/image/su.png&width=500)<br>
+![Snapshot på stockholms universitet alt ><](https://www.student.bth.se/~kaha24/dbwebb-kurser/design/me/portfolio/image/su.png&width=500)<br>
 
 #### Analys
 Den här webbplatsen visar klart lägre prestanda än de andra, med en startsideprestanda på endast 79 på desktop och 47 på mobil. Hög resursanvändning (121 resurser, 17.9 MB) och lång laddtid (1.63 s) påverkar resultaten kraftigt. <br><br>
