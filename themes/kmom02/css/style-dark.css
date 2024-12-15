@@ -313,6 +313,7 @@ template {
 
 /* Colors */
 /* Header colors */
+/* Background colors */
 /* Nav colors */
 /* Footer colors */
 /* Code colors */
@@ -6806,6 +6807,7 @@ pre code {
 
 .tech-content {
   grid-column: 2;
+  padding-right: 40px;
   grid-row: 1;
 }
 
@@ -6824,6 +6826,7 @@ pre code {
   .tech-content {
     grid-column: 1;
     grid-row: 2;
+    padding-right: 0px;
   }
 }
 /* Variables */

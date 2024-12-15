@@ -37,6 +37,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts' !important;
 html,
 body {
   height: 100%;
+  background-color: variables.$bg-color;
 }
 
 body {
